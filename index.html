@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atv Cardápio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Cardápio</h1>
+    <label for="dia-semana">Dia da Semana:</label>
+    <select id="dia-semana">
+      <option value="Segunda-feira">Segunda-feira</option>
+      <option value="Terça-feira">Terça-feira</option>
+      <option value="Quarta-feira">Quarta-feira</option>
+      <option value="Quinta-feira">Quinta-feira</option>
+      <option value="Sexta-feira">Sexta-feira</option>
+      <option value="Sábado">Sábado</option>
+      <option value="Domingo">Domingo</option>
+    </select>
+    <br /><br />
+    <label for="novo-item">Novo Item:</label>
+    <input type="text" id="novo-item" />
+    <button id="adicionar-item">Adicionar</button>
+    <button id="editar-item">Editar</button>
+    <button id="excluir-item">Excluir</button>
+    <ul id="itens-cardapio"></ul>
+
+
+    <h1>Calculadora Imc</h1>
+    <fieldset>
+      <input type="text" id="peso" placeholder="Digite o seu peso">
+      <input type="text" id="altura" placeholder="Digite sua Altura com .">
+      <button id="calcular-imc">Calcular</button>
+      <p id="resultado"></p>
+    </fieldset>
+    <script src="main.js"></script>
+  </body>
+</html>
